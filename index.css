@@ -1,0 +1,81 @@
+body {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(153,103,186,1) 41.2%, rgba(0,113,227,1) 90% );
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h5 {
+  text-align: center;
+  color: yellow;
+}
+
+#word {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#word div {
+  min-width: 20px;
+  min-height: 40px;
+  border-bottom: 2px solid black;
+  margin: 5px;
+}
+
+#alpha {
+  display: flex;
+  flex-direction: column;
+}
+
+.alpha {
+  display: flex;
+  justify-content: center;
+  min-width: 30px;
+  border: 2px solid black;
+  margin: 5px;
+  cursor: grab;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+
+.image {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+#image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 25px;
+}
+
+#message {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: rgb(255, 22, 22);
+  font-size: 20px;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.hide {
+  display: none;
+}
